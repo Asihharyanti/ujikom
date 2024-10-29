@@ -5,15 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Information extends Model
+class Agenda extends Model
 {
     use HasFactory;
 
-    protected $table = 'informasi'; // Nama tabel
+    protected $table = 'agenda'; // Nama tabel
     protected $fillable = [
         'judul',
         'deskripsi',
-        'foto',
+        'tanggal',
         'kategori_id',
     ];
 

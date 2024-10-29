@@ -25,6 +25,12 @@ class ProfileUpdateRequest extends FormRequest
                 'max:255',
                 Rule::unique(User::class)->ignore($this->user()->id),
             ],
+            'password' => [
+                'nullable', // Tidak wajib, hanya jika ingin mengubah password
+                'string',
+                'min:8', // Minimal 8 karakter
+                'confirmed', // Pastikan ada field password_confirmation
+            ],
         ];
     }
-}
+}    

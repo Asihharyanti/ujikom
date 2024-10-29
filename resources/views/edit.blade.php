@@ -23,6 +23,7 @@
                         <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Update</button>
                         <a href="{{ route('informasi.index') }}" class="bg-gray-500 text-white py-2 px-4 rounded">Kembali</a>
                     </form>
+                    
                 </div>
             </div>
         </div>

@@ -46,6 +46,11 @@
                                 <i class="fas fa-images"></i> Galeri
                             </a>
                         </li>
+                        <li class="mb-4">
+                            <a href="#" class="block text-white hover:bg-gray-700 p-2 rounded">
+                                <i class="fas fa-images"></i> Kategori
+                            </a>
+                        </li>
                         {{-- Tambahkan item navigasi lainnya jika diperlukan --}}
                     </ul>
                 </nav>

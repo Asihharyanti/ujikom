@@ -23,13 +23,14 @@
             </a>
         </li>
         <li class="mb-4">
-            <a href="/informations" onclick="showSection('informasi')" class="block text-white hover:bg-blue-700 p-2 rounded">
-                <i class="fas fa-info-circle"></i> Informasi
-            </a>
-        </li>
+    <a href="{{ route('informations.index') }}" class="block text-white hover:bg-blue-700 p-2 rounded">
+        <i class="fas fa-info-circle"></i> Informasi
+    </a>
+</li>
+
         <li class="mb-4">
-            <a href="/agenda" onclick="showSection('agenda')" class="block text-white hover:bg-blue-700 p-2 rounded">
-                <i class="fas fa-calendar-alt"></i> Agenda
+        <a href="{{ route('agenda.index') }}" class="block text-white hover:bg-blue-700 p-2 rounded">
+                <i class="fas fa-info-circle"></i> Agenda
             </a>
         </li>
         <li class="mb-4">
